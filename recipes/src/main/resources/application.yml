@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://${spring.data.mongodb.username}:${spring.data.mongodb.password}@miclustercafe.d5mi6pg.mongodb.net/?retryWrites=true&w=majority
+      username: admin
+      password: Ou33ruAxysyLo32p
+      database: delli

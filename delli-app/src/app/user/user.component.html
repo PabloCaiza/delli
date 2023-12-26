@@ -1,0 +1,8 @@
+@if (isLoggedIn) {
+  <p>Bienvenido , {{ username }} </p>
+  <img alt="photo" src="https://github.com/PabloCaiza.png" (click)="greet()"/>
+} @else {
+  <p-button label="Inicia sesion" (click)="isLoggedIn=true"></p-button>
+}
+
+
